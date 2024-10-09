@@ -1,11 +1,11 @@
-"C:\Users\Basic\Documents\Unreal Projects\SteamSetup\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\x64\UnrealGame\Development\AdvancedSessions\Module.AdvancedSessions.2.cpp"
-/FI"C:\Users\Basic\Documents\Unreal Projects\SteamSetup\Intermediate\Build\Win64\x64\SteamSetup\Development\Engine\SharedPCH.Engine.Cpp17.h"
-/FI"C:\Users\Basic\Documents\Unreal Projects\SteamSetup\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\x64\UnrealGame\Development\AdvancedSessions\Definitions.AdvancedSessions.h"
-/Yu"C:\Users\Basic\Documents\Unreal Projects\SteamSetup\Intermediate\Build\Win64\x64\SteamSetup\Development\Engine\SharedPCH.Engine.Cpp17.h"
-/Fp"C:\Users\Basic\Documents\Unreal Projects\SteamSetup\Intermediate\Build\Win64\x64\SteamSetup\Development\Engine\SharedPCH.Engine.Cpp17.h.pch"
-/Fo"C:\Users\Basic\Documents\Unreal Projects\SteamSetup\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\x64\UnrealGame\Development\AdvancedSessions\Module.AdvancedSessions.2.cpp.obj"
-/sourceDependencies "C:\Users\Basic\Documents\Unreal Projects\SteamSetup\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\x64\UnrealGame\Development\AdvancedSessions\Module.AdvancedSessions.2.cpp.dep.json"
-@"C:\Users\Basic\Documents\Unreal Projects\SteamSetup\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\x64\UnrealGame\Development\AdvancedSessions\AdvancedSessions.Shared.rsp"
+"D:\UnrealProjects\TestSteamHugo\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\x64\UnrealGame\Development\AdvancedSessions\Module.AdvancedSessions.2.cpp"
+/FI"D:\UnrealProjects\TestSteamHugo\Intermediate\Build\Win64\x64\TestSteamHugo\Development\Engine\SharedPCH.Engine.Project.ValApi.Cpp20.h"
+/FI"D:\UnrealProjects\TestSteamHugo\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\x64\UnrealGame\Development\AdvancedSessions\Definitions.AdvancedSessions.h"
+/Yu"D:\UnrealProjects\TestSteamHugo\Intermediate\Build\Win64\x64\TestSteamHugo\Development\Engine\SharedPCH.Engine.Project.ValApi.Cpp20.h"
+/Fp"D:\UnrealProjects\TestSteamHugo\Intermediate\Build\Win64\x64\TestSteamHugo\Development\Engine\SharedPCH.Engine.Project.ValApi.Cpp20.h.pch"
+/Fo"D:\UnrealProjects\TestSteamHugo\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\x64\UnrealGame\Development\AdvancedSessions\Module.AdvancedSessions.2.cpp.obj"
+/sourceDependencies "D:\UnrealProjects\TestSteamHugo\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\x64\UnrealGame\Development\AdvancedSessions\Module.AdvancedSessions.2.cpp.dep.json"
+@"D:\UnrealProjects\TestSteamHugo\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\x64\UnrealGame\Development\AdvancedSessions\AdvancedSessions.Shared.rsp"
 /Zc:inline
 /nologo
 /Oi
@@ -15,12 +15,15 @@
 /Gy
 /utf-8
 /wd4819
-/Zc:hiddenFriend
+/DSAL_NO_ATTRIBUTE_DECLARATIONS=1
+/permissive-
+/Zc:strictStrings-
 /Zc:__cplusplus
 /D_CRT_STDIO_LEGACY_WIDE_SPECIFIERS=1
 /D_SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS=1
 /D_DISABLE_EXTENDED_ALIGNED_STORAGE
 /Ob2
+/d2ExtendedWarningInfo
 /Ox
 /Ot
 /GF
@@ -42,4 +45,6 @@
 /TP
 /GR-
 /W4
-/std:c++17
+/std:c++20
+/Zc:preprocessor
+/wd5054
